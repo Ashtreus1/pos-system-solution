@@ -8,16 +8,19 @@ Select **open-jdk17-boostrap** and after you installed it. Run **java** to see i
 
 To successfully run the program, compile all the necessary file needed to compile, like this:
 
-`
+```bash
 javac poskiosksystem/PosKioskSystem.java filesetup/*.java managers/*.java objects/*.java
-`
+```
   
 Or you can compile specific file by replacing the **asterisk** with a specific file name.
 
-After compilation process, run the main file of your program. In this case, our main program file located at "**poskiosksytem/PosKioskSystem.java**". To run it, enter this in terminal:
-
-`
+After compilation process, run the main file of your program. In this case, our main program file located at:
+```
+poskiosksytem/PosKioskSystem.java 
+```
+To run it, enter this in terminal:
+```bash
  java poskiosksystem/PosKioskSystem.java
-`
+```
 
 After, you'll see the program running. That's it!
